@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Post New Job"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"/>
+
+        <EditText
+            android:id="@+id/jobTitleInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Job Title *"
+            android:padding="14dp"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/companyNameInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Company Name *"
+            android:padding="14dp"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/locationInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Location (e.g., Remote, New York)"
+            android:padding="14dp"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/salaryInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Salary Range"
+            android:padding="14dp"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/experienceInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Experience Level (e.g., 2-5 years)"
+            android:padding="14dp"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/skillsInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Required Skills (comma separated) *"
+            android:padding="14dp"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/descriptionInput"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:hint="Job Description *"
+            android:gravity="top"
+            android:padding="14dp"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Interview Questions (Optional)"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/question1Input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Question 1"
+            android:padding="12dp"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/question2Input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Question 2"
+            android:padding="12dp"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/question3Input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Question 3"
+            android:padding="12dp"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Post Job"
+            android:backgroundTint="#6200EE"/>
+
+    </LinearLayout>
+</ScrollView>
